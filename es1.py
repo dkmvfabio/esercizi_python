@@ -10,9 +10,6 @@ datiMensili = [
               ("Settembre", 190), ("Ottobre", 100), ("Novembre", 240), ("Dicembre", "N/D")])
 ]
 
-nomeCitta = str(input("Inserisci il nome di una città da analizzare: "))
-
-
 def analisiDati(nomeCitta, datiMensili):
     meseMax = ""
     meseMin = ""
